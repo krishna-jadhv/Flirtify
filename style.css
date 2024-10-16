@@ -28,9 +28,9 @@ body {
     position: relative;
     padding: 20px;
     z-index: 1;
-    width: auto; /* Allow width to adjust based on content */
-    max-width: 90%; /* Limit max width to prevent overflowing the screen */
-    min-height: 150px; /* Set a minimum height */
+    width: auto; 
+    max-width: 90%; 
+    min-height: 150px; 
 }
 
 .glass {
@@ -43,11 +43,11 @@ body {
 
 .text {
     color: #FF007F;
-    width: 100%; /* Use full width */
-    max-width: 100%; /* Ensure it doesn't exceed mainDiv's width */
-    white-space: nowrap; /* Allow text to wrap to the next line */
+    width: 100%; 
+    max-width: 100%; 
+    white-space: nowrap; 
     overflow: hidden;
-    border-right: 5px solid #FF007F; /* Optional: border for effect */
+    border-right: 5px solid #FF007F; 
     margin-bottom: 40px;
     animation: typing 2s, cursor .8s step-end infinite alternate;
     animation-fill-mode: forwards;
