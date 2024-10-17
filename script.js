@@ -38,6 +38,8 @@ const compliments = [
     "There's ordinary, and then there's you.",
     "You're even better than a unicorn because you're real",
     "You're really something special.",
+    "4+4=8 but you+me=fate", "Are you tired? You've been running through my mind all day.", "What's your favorite drink? I'm asking so I know what to buy you when we go on our first date.", "I should complain to Spotify for not making you this week's hottest single.", "Do you play soccer? Because you're a keeper.", "You look so familiar…did we have class together? I could've sworn we had chemistry.", "I'm learning about important dates in history, wanna be one of them?", "They say dating is a numbers game, so can I get yours?", "When I text you good morning tomorrow, what number should I text?", "Hi, my name is [your name], but you can call me tomorrow.", "Can I show your profile to my friends to prove that angels really do exist?", "There's something wrong with my phone, it doesn't have your number in it.",
+    "123456789. The only number I don't see here is yours.", "Do you have Instagram? My parents always told me to follow my dreams.", "Are you an artist? You're really good at drawing me in.", "Angels should be in heaven. How'd you escape?", "If you and I were socks, we'd make a great pair.", "Well, here I am! What are your other two wishes?", "Your name must be Barbie because when I saw you I pictured our Dreamhouse.", "What is it like to be the most gorgeous person in this room?", "If you were words on a page, you'd be fine print.", "You must be a talented thief because you managed to steal my heart from all the way over here.",
 ];
 
 document.querySelector('.btn').addEventListener('click', function() {
