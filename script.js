@@ -50,5 +50,7 @@ document.querySelector('.btn').addEventListener('click', function() {
     const randomCompliment = compliments[Math.floor(Math.random() * compliments.length)];
     textElement.innerHTML = randomCompliment;
     
-    textElement.style.animation = 'typing 2s steps(30, end), cursor .4s step-end infinite alternate';
+    textElement.style.animation = "none";
+    textElement.style.whiteSpace = "normal"; 
+
 });
