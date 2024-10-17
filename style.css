@@ -48,12 +48,12 @@ body {
     width: 100%; 
     max-width: 100%; 
     /* font-size: large; */
-    /* white-space: pre;  */
-    /* overflow: hidden; */
+    white-space: nowrap; 
+    overflow: hidden;
     /* border-right: 5px solid #FF007F;  */
     margin-bottom: 40px;
-    /* animation: typing 2s, cursor .8s step-end infinite alternate; */
-    /* animation-fill-mode: forwards; */
+    animation: typing 2s, cursor .8s step-end infinite alternate;
+    animation-fill-mode: forwards;
     font-size: 1.2em;
     text-align: center;
 }
@@ -62,10 +62,10 @@ body {
     50% { border-color: transparent; }
 }
 
-/* @keyframes typing {
+@keyframes typing {
     from { width: 0; }
     to { max-width: 100% }
-} */
+}
 
 button {
     padding: 1em 2em;
